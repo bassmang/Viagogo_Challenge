@@ -53,7 +53,7 @@ public class Environment {
 	
 	/* Helper class to hold events and distances, which also implements
 	 * Comparable.  This is in order to store the Events with a given distance
-	 * laster in a PriorityQueue, so I can easily find 5 closest Events.
+	 * later in a PriorityQueue, so I can easily find 5 closest Events.
 	 */
 	class EventDist implements Comparable<EventDist>{
 		Event event;
